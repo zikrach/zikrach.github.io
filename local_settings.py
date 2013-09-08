@@ -3,7 +3,7 @@
 
 AUTHOR = 'dimon'
 SITENAME = 'About All!!!'
-SITEURL = 'http://zzk.github.io'
+SITEURL = 'http://zikrach.github.io'
 
 TIMEZONE = 'Europe/Kiev'
 
@@ -25,8 +25,8 @@ ARTICLE_SAVE_AS = 'articles/{slug}.html'
 RELATIVE_URLS = True # включать во время разработки
 DISQUS_SITENAME = 'About All!!!'
 PDF_GENERATOR = False
-THEME = '/home/dima/blog/pelican-themes/bootstrap2'
-CSS_FILE = 'style.css'
+THEME = '/home/dima/blog/zzk.github.io'
+#CSS_FILE = 'style.css'
 #OUTPUT_PATH = 'articles/'
 #PATH = 'content'
 WITH_PAGINATION = True
@@ -42,12 +42,12 @@ METADATA = u'About ALL!!!'
 #GOOGLE_ANALYTICS_DOMAIN = 'your_site_domain'
 
 # Feeds
-#FEED_ALL_ATOM = None
-#FEED_ALL_RSS = None
-#FEED_DOMAIN = 'your_site_domain'
-#FEED_RSS = 'feeds/rss.xml'
-#FEED_ATOM = 'feeds/atom.xml'
-#FEED_MAX_ITEMS = 3
+FEED_ALL_ATOM = None
+FEED_ALL_RSS = None
+FEED_DOMAIN = 'zzk.github.io'
+FEED_RSS = 'feeds/rss.xml'
+FEED_ATOM = 'feeds/atom.xml'
+FEED_MAX_ITEMS = 3
 
 #Pages
 DISPLAY_PAGES_ON_MENU  = False
